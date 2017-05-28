@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app';
+import Board from './components/board';
 require('./style.scss');
 
 ReactDOM.render(
-  <App />,
+  <Board />,
   document.querySelector('#app')
 );
